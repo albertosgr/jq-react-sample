@@ -1,0 +1,21 @@
+.row {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.row .col {
+	width: 45%;
+}
+
+textarea {
+	height: 5rem;
+	width: 50%;
+}
+
+.mb-1 {
+	margin-bottom: 1rem;
+}
+
+.bg {
+	background: #eee;
+}

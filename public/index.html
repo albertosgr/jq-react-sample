@@ -6,8 +6,32 @@
 	<meta name='viewport' content='width=device-width, initial-scale=1'>
 	<link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="./jqFuncs.js"></script>
 </head>
 <body>
-	
+
+	<div class="row">
+		<div id="jqCnt" class="col">
+			<h3>Hello I'm JQ</h3>
+			<hr />
+			<div class="inputs mb-1">
+				<textarea id="txtJQ">init text JQ</textarea>
+			</div>
+			<div class="controls">
+				<button class="btnSendToReact">Send Text to React</button>
+				<button class="btnGetFromReact">Get Text from React</button>
+				<div class="mb-1"></div>
+				<button class="toggleReactBG">Toggle React Background</button>
+				<div class="mb-1"></div>
+				<label>
+					<input type="checkbox" id="chkSyncJQ" /> Sync Typing to react
+				</label>
+			</div>
+		</div>
+		
+		<div id="reactCnt" class="col" style="margin-left: 1rem;"></div>
+
+	</div>
+
 </body>
 </html>
